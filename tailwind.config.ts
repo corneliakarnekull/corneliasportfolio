@@ -8,9 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      
+      fontFamily: {
+        bodoni: ['"Bodoni Moda"', 'serif'], // Correct font name with fallback to serif
+      },
+      
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        perfectpurple: '#937BDC',
+      },
+      screens: {
+        xs: '400px',
+        '3xl': '1680px',
+        '4xl': '2200px',
+      },
+      maxWidth: {
+        '10xl': '1512px',
       },
     },
   },
